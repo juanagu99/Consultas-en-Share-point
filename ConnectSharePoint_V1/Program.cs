@@ -30,7 +30,7 @@ namespace ConnectSharePoint_V1
                 try {
                     //Instancia de la Uri (ejm: https://miremingtonedu.sharepoint.com/sites/Pruebas) en este link se encuentra la lista
                     var context = new ClientContext(Uri);
-                    //se obtiene el contexto de la pagina
+                    //se obtiene el contexto de la paginaa
                     Web web = context.Web;
                     //se convierte la contraseña a un objeto SecureString
                     SecureString password = GetPassword(Password);
